@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "lib": ["ES2022", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"]
+  },
+  "include": [
+    "vite.config.ts",
+    "scripts",
+    "api/**/*.ts",
+    "server/**/*.ts",
+    "src/features/avatar/avatarConfig.ts",
+    "src/features/avatar/types.ts",
+    "src/features/chat/directiveUtils.ts",
+    "src/features/chat/promptBuilder.ts",
+    "src/features/chat/responseSchema.ts",
+    "src/features/chat/types.ts"
+  ]
+}
