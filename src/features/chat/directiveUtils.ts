@@ -1,6 +1,6 @@
-import { isAnchorState } from "../avatar/avatarConfig";
-import { PERSONA_VERSION } from "./promptBuilder";
-import type { AssistantDirective, UiLocale } from "./types";
+import { isAnchorState } from "../avatar/avatarConfig.js";
+import { PERSONA_VERSION } from "./promptBuilder.js";
+import type { AssistantDirective, UiLocale } from "./types.js";
 
 function buildFallbackReply(preferredLanguage: UiLocale) {
   return preferredLanguage === "en"

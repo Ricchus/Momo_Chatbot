@@ -1,5 +1,5 @@
-import { ANCHOR_STATES } from "../avatar/avatarConfig";
-import type { UiLocale } from "./types";
+import { ANCHOR_STATES } from "../avatar/avatarConfig.js";
+import type { UiLocale } from "./types.js";
 
 export const PERSONA_VERSION = "maomao_v2";
 

@@ -1,4 +1,4 @@
-import type { AnchorState } from "./types";
+import type { AnchorState } from "./types.js";
 
 export const ANCHOR_STATES = [
   "idle_neutral",

@@ -1,8 +1,8 @@
 import OpenAI from "openai";
-import { buildInstructions } from "../src/features/chat/promptBuilder";
-import { assistantDirectiveSchema } from "../src/features/chat/responseSchema";
-import { normalizeDirective } from "../src/features/chat/directiveUtils";
-import type { ChatMessage, UiLocale } from "../src/features/chat/types";
+import { buildInstructions } from "../src/features/chat/promptBuilder.js";
+import { assistantDirectiveSchema } from "../src/features/chat/responseSchema.js";
+import { normalizeDirective } from "../src/features/chat/directiveUtils.js";
+import type { ChatMessage, UiLocale } from "../src/features/chat/types.js";
 
 const DEFAULT_MODEL = "gpt-4.1-mini";
 const JSON_HEADERS = {

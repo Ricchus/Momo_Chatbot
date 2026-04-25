@@ -1,4 +1,4 @@
-import { ANCHOR_STATES } from "../avatar/avatarConfig";
+import { ANCHOR_STATES } from "../avatar/avatarConfig.js";
 
 export const assistantDirectiveSchema = {
   type: "object",

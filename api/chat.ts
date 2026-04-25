@@ -1,5 +1,5 @@
 import type { IncomingMessage, ServerResponse } from "node:http";
-import { handleChatFunctionRequest } from "../server/chatFunction";
+import { handleChatFunctionRequest } from "../server/chatFunction.js";
 
 function requestCanHaveBody(method?: string) {
   const upper = method?.toUpperCase();

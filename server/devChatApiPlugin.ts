@@ -1,6 +1,6 @@
 import type { IncomingHttpHeaders, IncomingMessage, ServerResponse } from "node:http";
 import type { PluginOption } from "vite";
-import { handleChatFunctionRequest } from "./chatFunction";
+import { handleChatFunctionRequest } from "./chatFunction.js";
 
 function toRequestHeaders(headers: IncomingHttpHeaders) {
   const result = new Headers();
